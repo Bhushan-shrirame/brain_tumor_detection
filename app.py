@@ -255,6 +255,7 @@ def upload():
         # file_path = os.path.join(
         #     basepath, 'uploads', secure_filename(f.filename))
         # f.save(file_path)
+        f.save(f.filename)
         print(f.filename)
         value = getResult(f.filename)
         # result = get_className(value)
